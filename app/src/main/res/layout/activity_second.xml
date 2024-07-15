@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guess his mood!"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginTop="42dp" />
+
+    <ImageView
+        android:id="@+id/imgMochaSecond"
+        android:layout_width="match_parent"
+        android:layout_height="325dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/mocha2" />
+
+    <Spinner
+        android:id="@+id/spinnerMoods"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btn_guess"
+        android:layout_width="166dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="Guess" />
+</LinearLayout>
